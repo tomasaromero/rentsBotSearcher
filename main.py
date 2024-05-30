@@ -1,11 +1,8 @@
 import pyautogui, time
 
-# Considerado para dos monitores 16:9 1080,con ventana abierta pantalla completa y en ella las siguientes ventanas: en  wpp web y https://www.zonaprop.com.ar en dicho orden en el monitor secundario
-# (donde no aparece el escritorio)
-# para ajustar posiciones==>
-# time.sleep(3)
-# print(pyautogui.position()),dice donde esta el mouse
-# para saber tamaño de su pantalla ==>print(pyautogui.size())
+# Considero las siguientes ventanas abiertas: wpp web y https://www.zonaprop.com.ar 
+# print(pyautogui.position()), donde esta el mouse
+# para saber tamaño de su pantalla ==> print(pyautogui.size())
 time.sleep(3)
 # Mouse Functions
 #print(pyautogui.size())
